@@ -1,0 +1,250 @@
+body{ font-family: 'Open Sans', sans-serif; }
+
+header {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+h1 {
+	margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 13px;
+}
+
+
+li a:hover {
+    background-color: #f8693d;
+}
+
+.seccion1 {
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clase1, .clase2, .clase3 {
+	width: 30%;
+	height: 120px;
+	margin: 20px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fondo {
+	width: 100%;
+	height: 350px;
+	background: url("../imagenes/banner.jpg");
+	background-size: cover; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 75px;
+
+}
+
+.fondo img {
+	width: 30%;
+	height: 75%;
+}
+
+.contenedor_portfolio {
+	width: 100%;
+	height: 700px;
+	background-color: #f8693d;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor_portfolio h2 {
+	color: #ffffff;
+}
+
+.contenedor_portfolio p {
+	color: #ffffff;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconos a {
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+#main {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+}
+
+#main div:nth-of-type(1) {flex-grow: 1;}
+#main div:nth-of-type(2) {flex-grow: 1;}
+#main div:nth-of-type(3) {flex-grow: 1;}
+#main div:nth-of-type(4) {flex-grow: 1;}
+#main div:nth-of-type(5) {flex-grow: 1;}
+
+#main div img {
+	width: 100%;
+	height: 100%;
+}
+
+.texto_sobre_mi {
+	padding: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.fa {
+	font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#main div a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+
+    padding: 50px 60px 40px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+
+
+.footer-distributed .footer-left{
+    float: left;
+    width: 30%;
+}
+
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-links a {
+    margin-right: 5%;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    float: right;
+}
+
+.footer-distributed .footer-right p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+    display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:  #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color:  #d1d2d2;
+
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed form input{
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+    border-radius: 3px;
+    background-color:  #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+
